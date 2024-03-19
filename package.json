@@ -1,0 +1,16 @@
+{
+  "name": "memento-cli",
+  "version": "1.0.0",
+  "description": "A memento command line client",
+  "main": "index.js",
+  "repository": "https://github.com/phochste/memento-cli",
+  "author": "Patrick Hochstenbach",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "http-link": "^0.3.0",
+    "iotdb-links": "^1.0.5",
+    "node-fetch": "1.7.1",
+    "util": "^0.12.5"
+  }
+}
