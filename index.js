@@ -8,17 +8,19 @@ program
   .version('1.0.0')
   .description('CLI to Memento')
   .argument('<url>', 'url to fetch')
+  .option('-m, --timemap', 'TimeMap flag')
   .option('-t, --timegate <url>', 'TimeGate url', DEFAULT_TIME_GATE)
   .option('-s, --since <date>', 'Memento\'s since')
   .action( async (url, options) => {
       let opts = {
         host: options['timegate'],
+        timemap: options['timemap'],
       };
 
       if (options['since']) {
         opts['time'] = parseDate(options['since']);
       }
-      
+
       await do_memento(url,opts);
   });
 

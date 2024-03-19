@@ -11,7 +11,9 @@ node index.js https://patrickhochstenbach.net
 
 node index.js --since 2023 https://patrickhochstenbach.net
 
-node index.js --timegate http://somewhere.org https://patrickhochstenbach.net
+node index.js --timegate http://somewhere.org/ https://patrickhochstenbach.net
+
+node index.js --timemap http://somewhere.org/https://patrickhochstenbach.net
 ```
 
 ## see also
