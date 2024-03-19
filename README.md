@@ -5,15 +5,15 @@ A command line Memento (RFC 7089) client
 ## usage
 
 ```
-node index.js --help
+memento-cli --help
 
-node index.js https://patrickhochstenbach.net
+memento-cli https://patrickhochstenbach.net
 
-node index.js --since 2023 https://patrickhochstenbach.net
+memento-cli --since 2023 https://patrickhochstenbach.net
 
-node index.js --timegate http://somewhere.org/ https://patrickhochstenbach.net
+memento-cli --timegate http://somewhere.org/ https://patrickhochstenbach.net
 
-node index.js --timemap http://somewhere.org/https://patrickhochstenbach.net
+memento-cli --timemap http://somewhere.org/https://patrickhochstenbach.net
 ```
 
 ## see also

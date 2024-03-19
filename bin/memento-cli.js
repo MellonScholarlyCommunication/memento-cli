@@ -1,5 +1,7 @@
+#!/usr/bin/env node
+
 const { program } = require('commander');
-const memento = require('./lib/memento.js');
+const memento = require('../lib/memento.js');
 
 const DEFAULT_TIME_GATE = 'http://web.archive.org/web/timemap/link/';
 

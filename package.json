@@ -2,9 +2,15 @@
   "name": "memento-cli",
   "version": "1.0.0",
   "description": "Yet another memento client",
-  "main": "index.js",
-  "repository": "https://github.com/phochste/memento-cli",
-  "author": "Patrick Hochstenbach",
+  "main": "lib/memento.js",
+  "repository": "https://github.com/MellonScholarlyCommunication/memento-cli",
+  "author": "Patrick Hochstenbach <Patrick.Hochstenbach@UGent.be>",
+  "keywords": [
+    "memento",
+    "http",
+    "archive"
+  ],
+  "bin": "./bin/memento-cli.js",
   "license": "MIT",
   "dependencies": {
     "commander": "^12.0.0",
