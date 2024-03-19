@@ -1,7 +1,7 @@
 {
   "name": "memento-cli",
   "version": "1.0.0",
-  "description": "A memento command line client",
+  "description": "Yet another memento client",
   "main": "index.js",
   "repository": "https://github.com/phochste/memento-cli",
   "author": "Patrick Hochstenbach",
