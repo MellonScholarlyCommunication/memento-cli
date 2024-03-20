@@ -1,6 +1,6 @@
 # memento-cli
 
-A command line Memento (RFC 7089) client
+A command line Memento (RFC 7089) client.
 
 ## usage
 
