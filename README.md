@@ -20,8 +20,6 @@ memento-cli --timemap http://somewhere.org/https://patrickhochstenbach.net
 
 https://mementoweb.org/
 
-## know timegates
+## known timemaps
 
--  http://archive.is/
--  http://web.archive.org/web/timemap/link/
--  http://timetravel.mementoweb.org/about/
+See https://mementoweb.org/depot/
