@@ -11,9 +11,11 @@ memento-cli https://patrickhochstenbach.net
 
 memento-cli --since 2023 https://patrickhochstenbach.net
 
-memento-cli --timegate http://somewhere.org/ https://patrickhochstenbach.net
+memento-cli --base http://somewhere.org/ https://patrickhochstenbach.net
 
 memento-cli --timemap http://somewhere.org/https://patrickhochstenbach.net
+
+memento-cli --turtle https://patrickhochstenbach.net
 ```
 
 ## see also
