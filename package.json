@@ -1,6 +1,6 @@
 {
   "name": "memento-cli",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Yet another memento client",
   "main": "lib/memento.js",
   "repository": "https://github.com/MellonScholarlyCommunication/memento-cli",

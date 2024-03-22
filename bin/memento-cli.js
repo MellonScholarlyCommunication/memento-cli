@@ -10,7 +10,7 @@ const DEFAULT_TIME_MAP_BASE = 'http://web.archive.org/web/timemap/link/'
 
 program
   .name('memento-cli')
-  .version('1.0.1')
+  .version('1.0.2')
   .description('CLI to Memento')
   .argument('<url>', 'url to fetch')
   .option('-m, --timemap', 'Parse as TimeMap')
