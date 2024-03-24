@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 const { program } = require('commander');
-const memento = require('../lib/memento.js');
+const { memento } = require('../lib/memento.js');
 const N3 = require('n3');
 const { DataFactory } = N3;
 const { namedNode, literal, quad } = DataFactory;
@@ -10,7 +10,7 @@ const DEFAULT_TIME_MAP_BASE = 'http://web.archive.org/web/timemap/link/'
 
 program
   .name('memento-cli')
-  .version('1.0.2')
+  .version('1.0.3')
   .description('CLI to Memento')
   .argument('<url>', 'url to fetch')
   .option('-m, --timemap', 'Parse as TimeMap')
